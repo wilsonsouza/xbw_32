@@ -1,0 +1,105 @@
+//-----------------------------------------------------------------------------------------------//
+// xbw32 for Windows
+//
+// Created by Wilson.Souza 2013
+//
+// WR Devinfo
+// (c) 2013, 2014, 2015
+//-----------------------------------------------------------------------------------------------//
+#pragma once
+#include <bb.ControllerPages.hpp>
+#include <bb.ControllerGroups.hpp>
+
+using namespace bb;
+//-----------------------------------------------------------------------------------------------//
+ControllerGroups::ControllerGroups(std::ustring const & szGroupID):Group(szGroupID)
+{
+   AvailablesQueue = std::shared_ptr<ControllerNumbersAvailables>
+   {
+      new ControllerNumbersAvailables { szGroupID }
+   };
+}
+//-----------------------------------------------------------------------------------------------//
+ControllerGroups::~ControllerGroups()
+{
+   /* clear internal list */
+   clear();            
+   /* emit cancel all task in running */
+   cancel();
+}
+//-----------------------------------------------------------------------------------------------//
+std::shared_ptr<ControllerGroups> __fastcall ControllerGroups::Clone()
+{
+   return std::shared_ptr<ControllerGroups>{new ControllerGroups()};
+}
+//-----------------------------------------------------------------------------------------------//
+ControllerPages * __fastcall ControllerGroups::SearchPage(int const nPage)
+{
+   ControllerPages * out = nullptr;
+   /**/
+   run_and_wait([&]
+   {
+      iterator i = std::find_if( begin(), end(), [&] ( ControllerPages * p )->bool
+      {
+         if ( p->Page == nPage )
+         {
+            out = p;
+         }
+         return out != nullptr;
+      } );
+   } );
+   return out;
+}
+//-----------------------------------------------------------------------------------------------//
+void __fastcall ControllerGroups::Insert(ControllerPages * p, int nValue)
+{
+   std::pair<int, int> available = AvailablesQueue->Lookup( nValue );
+
+   if ( p->SearchNumber( nValue ) )
+   {
+      throw std::exception 
+      { 
+         std::ustring
+         {
+            std::ustring { "Número %1 já existe nesta cartela!" }.arg( nValue )
+         }.to_string().c_str()
+      };
+   }
+   /**/
+   if ( available.second == 0 )
+   {
+      throw std::exception
+      {
+         std::ustring
+         {
+            std::ustring { "Número %1 com quantidade %2 disponível!" }.
+            arg(available.first).arg(available.second)
+         }.to_string().c_str()
+      };
+   }
+   /**/
+   p->push_back( std::pair<int, int>( available.first, available.second - 1 ) );
+   available.second--;
+   AvailablesQueue->Update( available );
+}
+//-----------------------------------------------------------------------------------------------//
+bool __fastcall ControllerGroups::IsAvailable(int nValue)
+{
+   bool bSuccess = false;
+   /**/
+   run_and_wait([&]
+   { 
+      bSuccess = AvailablesQueue->Lookup( nValue ).second > 0;
+   } );
+   return bSuccess;
+}
+//-----------------------------------------------------------------------------------------------//
+void __stdcall ControllerGroups::CreateAvailables( int nBegin, int nMax )
+{
+   for ( int i = nBegin; i < nMax; i++ )
+   {
+      /* m_availables_queue->push_back(value_pointer) */
+      AvailablesQueue->push_back( std::pair<int, int>( i, nMax ) );
+   }
+}
+//-----------------------------------------------------------------------------------------------//

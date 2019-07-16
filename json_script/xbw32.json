@@ -1,0 +1,18 @@
+{
+  "databases": [
+    {
+      "actived": true,
+      "Provider": "",
+      "Password": "",
+      "Persist Security Info": "",
+      "User ID": "",
+      "Initial Catalog": "",
+      "Data Source": "",
+      "ConnectionTimeout": "",
+      "CommandTimeout": "",
+      "CursorLocation": "",
+      "IsolationLevel": "",
+      "Integrated Security": ""
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bb::create_database_data" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAEAAAAAgACAAAAAAQAQAAAAEAIAAAAAAAAAAI=</HashCode>
+      <FileName>bb.create_database_data.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::DataSourceManager" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAAEAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>bb.DataSourceManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::ListIntegerToStringList" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::dialog_config_application_options" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAIAAAAAYQQAAACCFAACCEpAABAAIAAA=</HashCode>
+      <FileName>bb.dialog_config_application_options.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::GroupList" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAEA=</HashCode>
+      <FileName>bb.GroupList.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::group_manager" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEEIAAAAgAAAAAAAAAAAAAAEAAAAAAAAAggAA=</HashCode>
+      <FileName>bb.group_manager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::information_group" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAoAAA=</HashCode>
+      <FileName>bb.information_group.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::integral_validator" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>bb.integral_validator.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::local_settings" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.local_settings.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::WriteDocument" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.WriteDocument.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::PageList" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAEAAAAAAAAAAEIAAAAAAAAAAAEAAAEAAAAAiAAA=</HashCode>
+      <FileName>bb.PageList.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::SQLConnectInformation&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.SQLConnectInformation.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::dialog_list_sql_server_intances" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAAAAAAAAAAAAAAAACABAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>bb.dialog_list_sql_server_intances.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdichildwindow_print_preview" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAIAAABAAAAgAAAgACAAAAEAAAIAgAAEgAA=</HashCode>
+      <FileName>bb.mdichildwindow_print_preview.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdiframewindowDelegate" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.mdiframewindowDelegate.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdiframewindow" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAggAEAAAAAAAAAQAEAAAAACAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>bb.mdiframewindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdichildwindow_open_paper" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgACAAAAkAAAIAAAAAAAA=</HashCode>
+      <FileName>bb.mdichildwindow_open_paper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdichildwindow_new_paper" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAgACAAAAEAAAIABAAAAAA=</HashCode>
+      <FileName>bb.mdichildwindow_new_paper.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::dialog_open_list_papers" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEEKABAAAAAAAAAAAQACAAAQAAAACAAAAAAQA=</HashCode>
+      <FileName>bb.dialog_open_list_papers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::dialog_new_papers" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAACAAAAIAAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.dialog_new_papers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::application" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.application.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::mdichildwindow" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABKAAIEEAAAAAAAAAACABAwgCQAAAEAAAIAgABkQEg=</HashCode>
+      <FileName>bb.DataSourceManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::DataSourceInformation" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.DataSourceManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::Controller" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::Numbers" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::Resources" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::Information" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::FileItemsEx" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.mdiframewindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::ViewItemsEx" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.mdiframewindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::ToolsItemsEx" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.mdiframewindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bb::Icons::Local" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABDAAAAEAAAAAAAgCAAAAAAgAABAAAEAAAAAAAAAAiA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="bb::group_data_information" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARgAAAAAgAAAAChABAAAEAAIiAAABAACAAAARAAAAA=</HashCode>
+      <FileName>bb.group_data_information.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bb::Document::Header" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAAAAACAAABAAACAAAAAAAEAAiEAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bb::Document::Data" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAADAAAAAAAACABAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bb::Document::Queue" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAQBAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bb::Document::Sheet" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAAAAACAAAAAAgAAAAAABAAAQAAAEAAAAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bb::Document::Manager" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAEAAAAAIAACABAIAAAAMAAAAQAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="bb::BoxListItems::HEADERINDEX" Collapsed="true">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bb.box_list_items.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="bb::__unnamed_enum_001d_1" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAIAACAAA=</HashCode>
+      <FileName>bb.defs.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="bb::BoxListItems::HEADERINDEX" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAgAAAABAAQAAACAAAAAAAAA=</HashCode>
+      <FileName>bb.box_list_items.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

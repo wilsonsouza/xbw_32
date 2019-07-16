@@ -1,0 +1,54 @@
+﻿  Uic'ing xbw32.ui...
+  Rcc'ing xbw32.qrc...
+RCC : warning : No resources in 'C:\projects\olavo\xbw_32\xbw32.qrc'.
+  
+  bb.application.cpp
+  bb.assign.cpp
+  bb.create_database_data.cpp
+  bb.box_buttons.cpp
+  bb.box_editions.cpp
+  bb.box_information.cpp
+  bb.box_list_items.cpp
+  bb.box_numbers.cpp
+  bb.box_page_numbers.cpp
+  bb.box_search.cpp
+  bb.box_select_group_page.cpp
+  bb.box_menu_tools.cpp
+  bb.box_print_preview.cpp
+  bb.defs.cpp
+  bb.dialog_config_application_options.cpp
+  bb.dialog_list_sql_server_intances.cpp
+  bb.dialog_new_paperss.cpp
+  bb.dialog_open_list_papers.cpp
+  bb.group_manager.cpp
+  bb.main.cpp
+  Generating Code...
+  Compiling...
+  bb.mdichildwindow.cpp
+  bb.mdichildwindow_new_paper.cpp
+  bb.mdichildwindow_open_paper.cpp
+  bb.mdichildwindow_print_preview.cpp
+  bb.mdichildwindow_special_combination.cpp
+  bb.MDIFrameWindow.cpp
+  bb.spreadsheet_advanced.cpp
+  bb.spreadsheet_box_entry_numbers.cpp
+  bb.spreadsheet_delete.cpp
+  bb.spreadsheet_edit_finder.cpp
+  bb.spreadsheet_edit_finder_numbers.cpp
+  bb.spreadsheet_initialize_distribution.cpp
+  bb.spreadsheet_insert.cpp
+  bb.spreadsheet_insert_by.cpp
+  bb.spreadsheet_manual_insert.cpp
+  bb.spreadsheet_select_other_group.cpp
+  bb.spreadsheet_view.cpp
+  bb.table_controller.cpp
+  bb.table_information.cpp
+  bb.table_interface.cpp
+  Generating Code...
+  Compiling...
+  bb.table_item_delegate.cpp
+  bb.table_numbers.cpp
+  bb.table_resources.cpp
+  Generating Code...
+  qrc_xbw32.cpp
+LINK : fatal error LNK1104: cannot open file 'libstdframe_qt.lib'
